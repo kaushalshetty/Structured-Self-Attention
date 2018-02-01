@@ -1,1 +1,1 @@
-"# Structured Self-attentive sentence embeddings" 
+# Structured Self-attentive sentence embeddings 
