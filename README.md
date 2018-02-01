@@ -1,5 +1,5 @@
 # Structured Self-attentive sentence embeddings 
----
+
 #### USAGE:
 For binary sentiment classification on imdb dataset run :
 `python classification.py "binary"`
