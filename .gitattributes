@@ -1,1 +1,1 @@
-*.rb linguist-language=Python 
+visualization/* linguist-vendored=true 
