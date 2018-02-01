@@ -7,8 +7,8 @@ For binary sentiment classification on imdb dataset run :
 For multiclass classification on reuters dataset run :
 `python classification.py "multiclass"`
 
-You can change the model parameters in the model_params.json file
-Other tranining parameters like number of attention hops etc can be configured in the config.json file.
+You can change the model parameters in the `model_params.json file`
+Other tranining parameters like number of attention hops etc can be configured in the `config.json` file.
 
 If you want to use pretrained glove embeddings , set the `use_embeddings` parameter to `"True"` ,default is set to False. Do not forget to download the `glove.6B.50d.txt` and place it in the glove folder.
 
