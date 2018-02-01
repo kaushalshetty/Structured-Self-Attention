@@ -115,7 +115,7 @@ class StructuredSelfAttention(torch.nn.Module):
             return F.log_softmax(self.linear_final(avg_sentence_embeddings)),attention
        
 	   
-	"""Regularization"""
+	#Regularization
     def l2_matrix_norm(self,m):
         """
         Frobenius norm calculation

@@ -1,4 +1,4 @@
-  import torch
+import torch
 from torch.autograd import Variable
  
 def train(attention_model,train_loader,criterion,optimizer,epochs = 5,use_regularization = False,C=0,clip=False):
