@@ -1,4 +1,4 @@
-#Thank You Lin Ghouhan for the visualization code
+#Thank You Lin Zhouhan for the visualization code
 import random, os, numpy, scipy
 from codecs import open
 def createHTML(texts, weights, fileName):
