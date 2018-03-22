@@ -1,5 +1,5 @@
 # Structured Self-attentive sentence embeddings 
-
+Implementation for the paper A Structured Self-Attentive Sentence Embedding, which is published in ICLR 2017: https://arxiv.org/abs/1703.03130 .
 #### USAGE:
 For binary sentiment classification on imdb dataset run :
 `python classification.py "binary"`
@@ -23,7 +23,7 @@ If you want to use pretrained glove embeddings , set the `use_embeddings` parame
 Instead of pruning ,used averaging over the sentence embeddings.
 
 #### Visualization:
-After training, the model is tested on 100 test points. Attention weights for the 100 test data are retrieved and used to visualize over the text using heatmaps. A file visualization.html gets saved in the visualization/ folder after successful training. The visualization code was provided by Zhouhan Lin. Many thanks.
+After training, the model is tested on 100 test points. Attention weights for the 100 test data are retrieved and used to visualize over the text using heatmaps. A file visualization.html gets saved in the visualization/ folder after successful training. The visualization code was provided by Zhouhan Lin (@hantek). Many thanks.
 
 
 Below is a shot of the visualization on few datapoints.
