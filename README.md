@@ -1,5 +1,5 @@
 # Structured Self-attentive sentence embeddings 
-Implementation for the paper A Structured Self-Attentive Sentence Embedding, which is published in ICLR 2017: https://arxiv.org/abs/1703.03130 .
+Implementation for the paper A Structured Self-Attentive Sentence Embedding, which was published in ICLR 2017: https://arxiv.org/abs/1703.03130 .
 #### USAGE:
 For binary sentiment classification on imdb dataset run :
 `python classification.py "binary"`
